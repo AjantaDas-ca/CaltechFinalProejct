@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("AjantaDas-ca/CaltechFinalProject")
+        app = docker.build("ajantadas-ca/caltechfinalproject")
     }
 
     stage('Test image') {
